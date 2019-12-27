@@ -8,9 +8,9 @@ SRF website: srf.elfu.org
 
 ## Detection rules
 
-* SQLi:  username OR uri OR user_agent contains " ' "
-* XSSL   uri OR host contains "<"
-* LFI:   uri contains "pass"
+* SQLi: username OR uri OR user_agent contains " ' "
+* XSSL: uri OR host contains "<"
+* LFI: uri contains "pass"
 * Shell: user_agent contains ":;" or "};"
 
 ## Usage
